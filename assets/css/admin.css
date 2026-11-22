@@ -1,0 +1,445 @@
+/**
+ * Viramoon Product Discounts – admin styles (RTL friendly).
+ */
+
+.viramoon-pd-wrap {
+	max-width: 1100px;
+}
+
+.viramoon-pd-wrap h1 {
+	margin-bottom: 12px;
+}
+
+.viramoon-pd-card {
+	background: #fff;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 16px 20px;
+	margin: 16px 0;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+}
+
+.viramoon-pd-card h2 {
+	margin-top: 0;
+	font-size: 15px;
+}
+
+.viramoon-pd-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	gap: 12px 20px;
+}
+
+.viramoon-pd-grid > p {
+	margin: 0;
+}
+
+.viramoon-pd-grid label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.viramoon-pd-actions {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 8px;
+	margin: 16px 0 8px;
+}
+
+/* Product panel ------------------------------------------------------- */
+
+/*
+ * WooCommerce ships very specific rules for `.form-field` inside the product
+ * data panels. Those rules used to float the helper text and push the control
+ * underneath it, so the selectors below are deliberately scoped to our own
+ * panel and stay more specific than WooCommerce's.
+ */
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 6px 10px;
+	padding: 9px 12px !important;
+	margin: 0 !important;
+	border-bottom: 1px solid #f0f0f1;
+}
+
+/*
+ * WooCommerce floats every control inside the product data panels, which is
+ * what used to place the helper text above the control itself. Inside our flex
+ * row the floats must be neutralised so the DOM order (label, control,
+ * description) is the visual order.
+ */
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field > select,
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field > input,
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field > span {
+	float: none;
+	max-width: 100%;
+}
+
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field > input[type="number"] {
+	width: 160px;
+	flex: 0 0 auto;
+}
+
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field > label {
+	float: none;
+	display: block;
+	width: 180px;
+	min-width: 180px;
+	margin: 0;
+	padding: 0;
+	font-weight: 600;
+	line-height: 1.5;
+}
+
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field > label.viramoon-pd-conflict-label {
+	flex: 1 1 100%;
+	width: auto;
+	min-width: 0;
+	font-weight: 400;
+	line-height: 1.7;
+}
+
+#viramoon_pd_product_data .viramoon-pd-panel p.form-field .description {
+	float: none;
+	display: block;
+	clear: both;
+	flex: 1 1 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	padding-inline-start: 190px;
+	color: #646970;
+	font-size: 12px;
+	box-sizing: border-box;
+}
+
+/* Scheduling / repair notices ----------------------------------------- */
+
+#viramoon_pd_product_data .viramoon-pd-panel p.viramoon-pd-window {
+	margin: 10px 12px;
+	padding: 10px 12px;
+	border-radius: 4px;
+	border: 1px solid #f0c33c;
+	border-inline-start: 4px solid #dba617;
+	background: #fcf9e8;
+	color: #3c434a;
+	font-size: 12px;
+	line-height: 1.9;
+}
+
+#viramoon_pd_product_data .viramoon-pd-panel p.viramoon-pd-window-expired {
+	border-color: #f1b1b3;
+	border-inline-start-color: #d63638;
+	background: #fcf0f1;
+}
+
+#viramoon_pd_product_data .viramoon-pd-panel p.viramoon-pd-window-missing {
+	border-color: #b8d3ea;
+	border-inline-start-color: #2271b1;
+	background: #f0f6fc;
+}
+
+/* Jalali date picker -------------------------------------------------- */
+
+.viramoon-pd-jalali {
+	display: inline-flex;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 6px;
+}
+
+.viramoon-pd-jalali .viramoon-pd-jalali-display {
+	direction: rtl;
+	text-align: center;
+	width: 190px;
+	min-height: 30px;
+	background: #fff;
+	cursor: pointer;
+}
+
+.viramoon-pd-jalali-native {
+	display: none !important;
+}
+
+.viramoon-pd-jp {
+	position: absolute;
+	z-index: 100000;
+	width: 292px;
+	background: #fff;
+	border: 1px solid #c3c4c7;
+	border-radius: 6px;
+	box-shadow: 0 8px 24px rgba( 0, 0, 0, 0.16 );
+	padding: 10px;
+	font-size: 13px;
+	color: #1d2327;
+	box-sizing: border-box;
+}
+
+.viramoon-pd-jp-head {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 6px;
+	margin-bottom: 8px;
+}
+
+.viramoon-pd-jp-title {
+	font-weight: 600;
+}
+
+.viramoon-pd-jp-head button {
+	cursor: pointer;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	width: 28px;
+	height: 28px;
+	line-height: 1;
+	font-size: 15px;
+}
+
+.viramoon-pd-jp-week,
+.viramoon-pd-jp-grid {
+	display: grid;
+	grid-template-columns: repeat( 7, 1fr );
+	gap: 2px;
+}
+
+.viramoon-pd-jp-week {
+	margin-bottom: 4px;
+	color: #646970;
+	font-size: 12px;
+	text-align: center;
+}
+
+.viramoon-pd-jp-week span {
+	padding: 2px 0;
+}
+
+.viramoon-pd-jp-day {
+	border: 1px solid transparent;
+	background: transparent;
+	border-radius: 4px;
+	padding: 5px 0;
+	cursor: pointer;
+	font: inherit;
+	text-align: center;
+	color: inherit;
+}
+
+.viramoon-pd-jp-day:hover {
+	background: #f0f6fc;
+}
+
+.viramoon-pd-jp-day.is-today {
+	border-color: #2271b1;
+}
+
+.viramoon-pd-jp-day.is-selected {
+	background: #2271b1;
+	color: #fff;
+}
+
+.viramoon-pd-jp-time {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	margin-top: 8px;
+}
+
+.viramoon-pd-jp-time select {
+	min-width: 64px;
+}
+
+.viramoon-pd-jp-foot {
+	display: flex;
+	align-items: center;
+	gap: 8px;
+	margin-top: 10px;
+	padding-top: 8px;
+	border-top: 1px solid #f0f0f1;
+}
+
+.viramoon-pd-jp-foot .viramoon-pd-jp-clear {
+	margin-inline-start: auto;
+}
+
+.viramoon-pd-preview {
+	display: inline-block;
+	background: #f6f7f7;
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 6px 12px;
+}
+
+.viramoon-pd-preview-final {
+	color: #2271b1;
+}
+
+.viramoon-pd-preview-percent {
+	color: #646970;
+	font-size: 12px;
+}
+
+.viramoon-pd-conflict {
+	background: #fcf9e8;
+	border: 1px solid #f0c33c;
+	border-radius: 4px;
+	padding: 10px 12px;
+}
+
+.viramoon-pd-conflict-label {
+	display: block;
+	line-height: 1.6;
+}
+
+.viramoon-pd-warning {
+	color: #b32d2e;
+	font-size: 12px;
+}
+
+.viramoon-pd-error {
+	color: #b32d2e;
+}
+
+.viramoon-pd-status-text {
+	color: #50575e;
+}
+
+/* Variation block ----------------------------------------------------- */
+
+.viramoon-pd-variation {
+	border-top: 1px dashed #dcdcde;
+	margin-top: 10px;
+	padding-top: 10px;
+	clear: both;
+}
+
+.viramoon-pd-variation-title {
+	font-weight: 600;
+	margin: 0 0 6px;
+	color: #2271b1;
+}
+
+.viramoon-pd-variation .form-row {
+	margin-bottom: 6px;
+}
+
+.viramoon-pd-variation label {
+	font-size: 12px;
+}
+
+/* Bulk widgets -------------------------------------------------------- */
+
+.viramoon-pd-bulk-var {
+	border: 1px solid #dcdcde;
+	border-radius: 4px;
+	padding: 12px 16px;
+	background: #fbfbfc;
+}
+
+.viramoon-pd-bulk-hint {
+	margin-top: 0;
+	color: #50575e;
+}
+
+.viramoon-pd-var-selected {
+	width: 100%;
+	max-width: 520px;
+}
+
+.viramoon-pd-progress {
+	margin: 16px 0 8px;
+}
+
+.viramoon-pd-progress-bar {
+	height: 10px;
+	background: #e5e5e5;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.viramoon-pd-progress-bar span {
+	display: block;
+	height: 100%;
+	width: 0;
+	background: #2271b1;
+	transition: width 0.2s ease;
+}
+
+.viramoon-pd-progress-text {
+	margin: 6px 0 0;
+	font-size: 12px;
+	color: #50575e;
+}
+
+.viramoon-pd-summary {
+	margin-top: 12px;
+}
+
+.viramoon-pd-summary table {
+	margin-top: 8px;
+}
+
+.viramoon-pd-summary details {
+	margin-top: 8px;
+}
+
+.viramoon-pd-summary ul {
+	margin: 6px 0 0 18px;
+	list-style: disc;
+}
+
+/* Products list ------------------------------------------------------- */
+
+.viramoon-pd-products-list table {
+	margin-top: 8px;
+}
+
+.viramoon-pd-pagination {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 10px;
+}
+
+.viramoon-pd-page-info {
+	color: #50575e;
+	font-size: 12px;
+}
+
+/* Settings ------------------------------------------------------------ */
+
+.viramoon-pd-gateway-table {
+	max-width: 720px;
+}
+
+.viramoon-pd-gateway-table td {
+	vertical-align: middle;
+}
+
+.viramoon-pd-gateway-notice {
+	margin-bottom: 12px;
+}
+
+@media screen and (max-width: 782px) {
+	#viramoon_pd_product_data .viramoon-pd-panel p.form-field > label {
+		width: 100%;
+		min-width: 0;
+	}
+
+	#viramoon_pd_product_data .viramoon-pd-panel p.form-field .description {
+		padding-inline-start: 0;
+	}
+
+	.viramoon-pd-grid {
+		grid-template-columns: 1fr;
+	}
+
+	.viramoon-pd-actions .button {
+		width: 100%;
+	}
+}

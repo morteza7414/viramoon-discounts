@@ -1,0 +1,733 @@
+# Copyright (C) 2026 Viramoon
+# This file is distributed under the GPL-2.0-or-later license.
+msgid ""
+msgstr ""
+"Project-Id-Version: Viramoon Product Discounts 1.1.0\n"
+"Report-Msgid-Bugs-To: https://viramoon.ir/\n"
+"POT-Creation-Date: 2026-11-22 00:00+0330\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language-Team: Persian\n"
+"X-Generator: Viramoon build script\n"
+"X-Domain: viramoon-product-discounts\n"
+
+#: includes/class-viramoon-pd-admin-product.php:260
+msgid "%1$s قیمت نهایی: %2$s"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:140
+msgid "ابتدا پیش‌نمایش بگیرید."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:384
+msgid "اجازه تخفیف ۱۰۰ درصدی و رسیدن قیمت نهایی به صفر."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:158
+#: includes/class-viramoon-pd-admin-bulk-variations.php:130
+msgid "اعمال تخفیف"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:143
+msgid "اعمال روی همه متغیرها"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:518
+msgid "اعمال کارمزد"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:37
+msgid "اعمال گروهی تخفیف به متغیرها"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:469
+msgid "افزایش قیمت به‌اندازه کارمزد (فروشنده دقیقاً مبلغ تخفیف‌خورده را دریافت می‌کند)"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:470
+msgid "افزودن کارمزد به‌صورت یک ردیف جداگانه در سبد خرید"
+msgstr ""
+
+#: viramoon-product-discounts.php:100
+msgid "افزونه «تخفیف محصولات ویرامون» برای کار کردن به ووکامرس نیاز دارد. لطفاً ووکامرس را نصب و فعال کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:104
+msgid "انتخاب همه در این صفحه"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:174
+msgid "اگر «قیمت حراج در دیتابیس» خالی است یعنی چیزی ذخیره نشده و باید پیام خطای بالای صفحه را بررسی کنید. اگر مقدار دارد اما فروشگاه قیمت قدیمی نشان می‌دهد، کش سایت را پاک کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:386
+msgid "اگر این گزینه غیرفعال باشد، تخفیفی که قیمت نهایی را صفر یا منفی کند رد می‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:54
+msgid "این بخش فقط برای محصولات متغیر نمایش داده می‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:187
+msgid "این تخفیف قیمت نهایی را صفر می‌کند. برای اجازه دادن به آن، گزینه تخفیف ۱۰۰ درصدی را در تنظیمات فعال کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:318
+msgid "این تنظیمات روی محاسبه قیمت تخفیف و نمایش آن در پنل مدیریت اثر می‌گذارد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:66
+msgid "این محصول %d متغیر دارد. تغییرات پس از پیش‌نمایش و با تأیید شما اعمال می‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:125
+msgid "این محصول قیمت حراج %s دارد که توسط ویرامون ساخته نشده است. با فعال کردن این گزینه، حراج فعلی بازنویسی و پس از پایان تخفیف بازگردانده می‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-discount-manager.php:247
+msgid "این محصول یا متغیر در حال حاضر قیمت حراج دارد که توسط افزونه ویرامون ایجاد نشده است. برای بازنویسی، گزینه «بازنویسی حراج موجود» را فعال کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:103
+msgid "بارگذاری محصولات"
+msgstr ""
+
+#: includes/class-viramoon-pd-discount-manager.php:235
+msgid "بازه زمانی این تخفیف به پایان رسیده است؛ قیمت حراج اعمال نشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:400
+msgid "بدون واحد"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:78
+msgid "برای اعمال تخفیف باید این گزینه روی «فعال» باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:117
+msgid "برای عملکرد بهتر فقط ۱۰۰۰ متغیر اول در این فهرست نمایش داده می‌شود؛ برای بقیه از دامنه «همه» استفاده کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:494
+msgid "برای محصولاتی که تخفیف ویرامون ندارند، کارمزد با روش «افزایش قیمت» اعمال شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:203
+msgid "بررسی امنیتی فرم تخفیف ناموفق بود؛ تغییرات ذخیره نشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:193
+msgid "بررسی امنیتی فرم متغیر ناموفق بود؛ تغییرات ذخیره نشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:143
+msgid "به‌روزرسانی‌شده"
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:229
+msgid "تاریخ «%s» معتبر نیست. قالب درست: YYYY-MM-DD HH:MM"
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:98
+#: includes/class-viramoon-pd-calculator.php:182
+msgid "تاریخ پایان باید بعد از تاریخ شروع باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-discount-manager.php:301
+msgid "تخفیف اعمال شد."
+msgstr ""
+
+#: includes/class-viramoon-pd-discount-manager.php:300
+msgid "تخفیف ذخیره شد و در زمان شروع فعال می‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:138
+msgid "تخفیف روی موارد پیش‌نمایش‌شده اعمال شود؟"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:37
+#: includes/class-viramoon-pd-admin-product.php:397
+#: includes/class-viramoon-pd-admin-product.php:402
+#: includes/class-viramoon-pd-admin-variations.php:95
+msgid "تخفیف ویرامون"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:139
+msgid "تخفیف ویرامون از موارد انتخاب‌شده حذف شود؟ این عمل قابل بازگشت نیست."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:37
+#: includes/class-viramoon-pd-admin-bulk-products.php:38
+#: includes/class-viramoon-pd-admin-bulk-products.php:64
+msgid "تخفیف گروهی ویرامون"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:183
+msgid "تخفیف ۱۰۰ درصدی"
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:165
+msgid "تخفیف ۱۰۰ درصدی در تنظیمات افزونه مجاز نشده است."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:143
+msgid "تشخیص وضعیت (برای پشتیبانی)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:376
+msgid "تعارض با حراج خارجی"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:74
+msgid "تنظیمات"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:595
+msgid "تنظیمات تخفیف محصولات ویرامون"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:134
+msgid "تنظیمات تخفیف ویرامون"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:160
+msgid "تنظیمات عمومی"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:135
+msgid "تنظیمات ویرامون"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:165
+msgid "توسط ویرامون ثبت شده"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:93
+msgid "جست‌وجو"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:105
+msgid "حذف انتخاب‌ها"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:440
+msgid "حذف داده‌ها فقط متادیتای اختصاصی این افزونه و تنظیمات آن را پاک می‌کند. اگر تخفیف فعالی در حال اجرا باشد، ابتدا قیمت حراج قبلی (در صورت وجود) بازگردانده و سپس قیمت حراج استاندارد ووکامرس پاک می‌شود؛ قیمت‌های عادی محصول دست‌نخورده می‌مانند."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:437
+msgid "حذف داده‌های افزونه هنگام حذف افزونه"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:153
+msgid "حراج فعلی (%s) توسط ویرامون ساخته نشده است؛ برای بازنویسی آن را تیک بزنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:119
+msgid "حراج موجود"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:163
+msgid "حراجی وجود ندارد"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:124
+msgid "حراج‌های خارجی موجود بازنویسی شوند (در غیر این صورت آن متغیرها رد می‌شوند)."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:152
+msgid "حراج‌های خارجی موجود بازنویسی شوند (در غیر این صورت آن محصولات/متغیرها رد می‌شوند)."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:167
+msgid "خارجی (دستی یا افزونه دیگر)"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:146
+msgid "خطا در ارتباط با سرور."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:199
+msgid "خلاصه تخفیف در مدیریت"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:74
+msgid "دامنه اعمال"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:147
+msgid "در حال بارگذاری…"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:142
+msgid "در حال پردازش…"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:496
+msgid "در حالت «کاهش تخفیف» محصولی که تخفیف ندارد تغییری نمی‌کند، مگر این گزینه فعال باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:84
+#: includes/class-viramoon-pd-calculator.php:162
+msgid "درصد تخفیف نباید بیشتر از ۱۰۰ باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:519
+msgid "درصد کارمزد"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:246
+msgid "درصد کارمزد هر درگاه"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:124
+#: includes/class-viramoon-pd-admin-bulk-variations.php:85
+#: includes/class-viramoon-pd-admin-product.php:84
+#: includes/class-viramoon-pd-admin-variations.php:111
+msgid "درصدی"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:517
+msgid "درگاه"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:327
+msgid "درگاه‌های پرداخت اقساطی مانند اسنپ‌پی و دیجی‌پی کارمزد خود را از فروشنده می‌گیرند. با تنظیم درصد کارمزد هر درگاه، می‌توانید این هزینه را هنگام انتخاب همان درگاه از مشتری دریافت کنید. این تنظیم فقط روی سبد خرید و تسویه‌حساب اثر دارد و قیمت ذخیره‌شده محصول را تغییر نمی‌دهد."
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:60
+msgid "دسترسی غیرمجاز."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:82
+msgid "دسته‌بندی"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:600
+msgid "ذخیره تنظیمات"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:144
+msgid "ردشده"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:141
+msgid "رفتار محصولات متغیر"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:230
+msgid "روش اعمال"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:175
+msgid "روش گرد کردن"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:372
+msgid "زمان‌بندی‌شده (هنوز شروع نشده)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:77
+msgid "ساده"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:207
+msgid "سیاست داده‌ها"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:134
+msgid "شروع"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:133
+#: includes/class-viramoon-pd-admin-bulk-variations.php:96
+msgid "شروع (اختیاری)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:96
+msgid "شروع تخفیف (اختیاری)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:52
+#: includes/class-viramoon-pd-settings.php:591
+msgid "شما اجازه دسترسی به این صفحه را ندارید."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:97
+msgid "شناسه دستی"
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:339
+msgid "شناسه‌های واردشده معتبر نیستند."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:113
+msgid "صفحه بعد"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:111
+msgid "صفحه قبل"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:354
+msgid "عدد صحیح"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:76
+#: includes/class-viramoon-pd-admin-product.php:379
+#: includes/class-viramoon-pd-admin-variations.php:102
+msgid "غیرفعال"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:370
+#: includes/class-viramoon-pd-admin-variations.php:101
+msgid "فعال"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:75
+msgid "فعال (تخفیف اعمال شود)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:77
+msgid "فقط متغیرهای انتخاب‌شده"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:78
+msgid "فقط متغیرهای بدون تخفیف فعال"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:144
+msgid "فقط متغیرهای واجد شرایط (قیمت‌دار و منتشرشده)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:139
+msgid "قیمت اصلی این محصول تعیین نشده است؛ تا زمانی که قیمت اصلی خالی باشد تخفیف محاسبه نمی‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-discount-manager.php:203
+msgid "قیمت اصلی تعیین نشده است؛ تخفیف اعمال نشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:147
+msgid "قیمت اصلی ثبت‌شده"
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:155
+msgid "قیمت اصلی محصول تعیین نشده است؛ تخفیف محاسبه نمی‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:164
+msgid "قیمت اصلی ندارد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:164
+msgid "قیمت اصلی ندارد؛ تخفیف اعمال نمی‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:108
+msgid "قیمت اصلی:"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:151
+msgid "قیمت حراج در دیتابیس"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:313
+msgid "قیمت حراج پس از ذخیره بازنویسی شده بود و توسط افزونه بازگردانده شد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:125
+msgid "قیمت نهایی"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:341
+msgid "قیمت نهایی پس از تخفیف گرد شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:111
+msgid "قیمت نهایی:"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:155
+msgid "قیمتی که ووکامرس الان می‌فروشد"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:159
+msgid "لغو تخفیف محصولات انتخاب‌شده"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:131
+msgid "لغو تخفیف گروهی"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:159
+msgid "مالکیت حراج فعلی"
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:168
+msgid "مبلغ تخفیف از قیمت اصلی بیشتر است."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:125
+#: includes/class-viramoon-pd-admin-bulk-variations.php:86
+#: includes/class-viramoon-pd-admin-product.php:85
+#: includes/class-viramoon-pd-admin-variations.php:112
+msgid "مبلغ ثابت"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:78
+msgid "متغیر"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:225
+#: includes/class-viramoon-pd-admin-variations.php:249
+msgid "متغیر %1$s: %2$s"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:107
+msgid "متغیرهای انتخاب‌شده"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:479
+msgid "مثال: تخفیف ۲۰٪ و کارمزد ۱۵٪. در حالت «کاهش تخفیف» مشتری ۵٪ تخفیف می‌گیرد. در حالت «افزایش قیمت» مشتری ۸۰٪ قیمت را می‌پردازد و کارمزد ۱۵٪ روی همان مبلغ محاسبه می‌شود تا فروشنده دقیقاً ۸۰٪ را دریافت کند."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:98
+msgid "مثلاً 12, 45, 90"
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:156
+#: includes/class-viramoon-pd-ajax.php:547
+#: includes/class-viramoon-pd-discount-manager.php:187
+msgid "محصول یافت نشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:238
+msgid "محصولات بدون تخفیف"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:66
+msgid "محصولات را فیلتر کنید، انتخاب کنید و پس از پیش‌نمایش، تخفیف را به‌صورت دسته‌ای (batch) اعمال کنید. هیچ تغییری بدون پیش‌نمایش و تأیید شما ذخیره نمی‌شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:148
+msgid "محصولی پیدا نشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:552
+msgid "مشتری %1$s٪ از قیمت اصلی و فروشنده %2$s٪ را دریافت می‌کند."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:119
+msgid "مقدار"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:129
+#: includes/class-viramoon-pd-admin-bulk-variations.php:91
+#: includes/class-viramoon-pd-admin-product.php:90
+msgid "مقدار تخفیف"
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:150
+msgid "مقدار تخفیف باید بزرگ‌تر از صفر باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:145
+msgid "مقدار تخفیف باید عدد باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:80
+msgid "مقدار تخفیف باید عددی بزرگ‌تر از صفر باشد."
+msgstr ""
+
+#: includes/class-viramoon-pd-calculator.php:141
+msgid "مقدار تخفیف را وارد کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:357
+msgid "مقدار دلخواه"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:94
+msgid "نام محصول…"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:355
+msgid "نزدیک‌ترین ۱۰۰"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:356
+msgid "نزدیک‌ترین ۱۰۰۰"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:398
+msgid "نماد واحد پول ووکامرس"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:422
+msgid "نمایش ستون «تخفیف ویرامون» در فهرست محصولات."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:520
+msgid "نمونه با تخفیف ۲۰٪"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:109
+msgid "نوع"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:122
+#: includes/class-viramoon-pd-admin-bulk-variations.php:83
+#: includes/class-viramoon-pd-admin-product.php:82
+msgid "نوع تخفیف"
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:76
+#: includes/class-viramoon-pd-calculator.php:136
+msgid "نوع تخفیف نامعتبر است."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:74
+msgid "نوع محصول"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:436
+msgid "نگهداری داده‌ها پس از حذف افزونه"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:328
+msgid "هشدار مهم: در حالت «کاهش تخفیف»، اگر کارمزد درگاه بیشتر از تخفیف باشد (مثلاً تخفیف ۱۰٪ و کارمزد ۱۵٪)، تخفیف مؤثر صفر می‌شود و مشتری همان قیمت اصلی را می‌پردازد. در این حالت اگر می‌خواهید تخفیف مشتری حفظ شود، روش «افزایش قیمت» را انتخاب کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:76
+msgid "همه"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:84
+msgid "همه دسته‌ها"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-variations.php:76
+msgid "همه متغیرها"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:510
+msgid "هیچ درگاه پرداختی یافت نشد. ابتدا درگاه‌ها را در ووکامرس فعال کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:430
+#: includes/class-viramoon-pd-plugin.php:141
+msgid "هیچ محصولی انتخاب نشده است."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:191
+msgid "واحد نمایش مبلغ"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:408
+msgid "واحد پول از تنظیمات ووکامرس خوانده می‌شود و فقط نحوه نمایش مبلغ در رابط این افزونه را تغییر می‌دهد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:99
+#: includes/class-viramoon-pd-settings.php:222
+msgid "وضعیت"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:73
+msgid "وضعیت تخفیف"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:229
+msgid "وضعیت تخفیف روی «غیرفعال» بود، بنابراین تخفیف اعمال نشد. برای اعمال، وضعیت را «فعال» کنید."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:134
+msgid "وضعیت فعلی"
+msgstr ""
+
+#: includes/class-viramoon-pd-ajax.php:160
+msgid "وضعیت منتشرشده ندارد."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-variations.php:141
+msgid "پایان"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:137
+#: includes/class-viramoon-pd-admin-bulk-variations.php:101
+msgid "پایان (اختیاری)"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:101
+msgid "پایان تخفیف (اختیاری)"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:149
+msgid "پایان عملیات."
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:374
+msgid "پایان‌یافته"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:157
+#: includes/class-viramoon-pd-admin-bulk-variations.php:129
+msgid "پیش‌نمایش"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-product.php:106
+msgid "پیش‌نمایش قیمت"
+msgstr ""
+
+#: includes/class-viramoon-pd-gateway-fees.php:273
+msgid "کارمزد %s این درگاه از تخفیف محصولات این سفارش کسر شده است؛ بنابراین تخفیف نهایی شما کمتر از تخفیف اعلام‌شده روی محصول است."
+msgstr ""
+
+#: includes/class-viramoon-pd-gateway-fees.php:265
+msgid "کارمزد %s این درگاه به‌صورت یک ردیف جداگانه به سبد خرید اضافه شده است."
+msgstr ""
+
+#: includes/class-viramoon-pd-gateway-fees.php:257
+msgid "کارمزد %s این درگاه در قیمت محصولات این سفارش لحاظ شده است."
+msgstr ""
+
+#: includes/class-viramoon-pd-gateway-fees.php:223
+msgid "کارمزد درگاه %s"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:455
+msgid "کارمزد درگاه انتخابی هنگام تسویه‌حساب از مشتری گرفته شود."
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:215
+msgid "کارمزد درگاه‌های پرداخت"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:468
+msgid "کاهش تخفیف (تخفیف مؤثر = تخفیف − کارمزد)"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:399
+msgid "کد واحد پول (مثلاً IRT)"
+msgstr ""
+
+#: includes/class-viramoon-pd-plugin.php:145
+msgid "کل"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:367
+msgid "گام دلخواه:"
+msgstr ""
+
+#: includes/class-viramoon-pd-settings.php:167
+msgid "گرد کردن قیمت نهایی"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:70
+msgid "۱) انتخاب محصولات"
+msgstr ""
+
+#: includes/class-viramoon-pd-admin-bulk-products.php:119
+msgid "۲) تنظیم تخفیف"
+msgstr ""
+

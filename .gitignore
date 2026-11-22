@@ -1,0 +1,25 @@
+# Build artifacts (the installable plugin zip is generated, not versioned)
+*.zip
+*.rar
+*.7z
+
+# Logs
+*.log
+
+# Local environment / secrets
+.env
+.env.*
+*.pem
+*.key
+
+# Dependencies
+node_modules/
+vendor/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+.idea/
+.vscode/

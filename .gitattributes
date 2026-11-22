@@ -1,0 +1,10 @@
+# Keep the repository line endings stable across Windows/Linux
+* text=auto eol=lf
+
+# Binary assets
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.zip binary
